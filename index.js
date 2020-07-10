@@ -9,7 +9,7 @@ class WebExtWebpackPlugin {
   }
 
   apply(compiler) {
-    compiler.hooks.afterEmit.tapPromise(pluginName, async (compilation) => {
+    compiler.hooks.watchRun.tapPromise(pluginName, async (compilation) => {
       if (this.runner) {
         this.runner.reloadAllExtensions();
         return;
