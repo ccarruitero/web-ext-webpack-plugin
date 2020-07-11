@@ -4,7 +4,7 @@ A webpack plugin for web-ext
 ## Install
 
 ```
-npm i -D web-ext-webpack-plugin
+npm i -D @ccarruitero/web-ext-webpack-plugin
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ npm i -D web-ext-webpack-plugin
 In your `webpack.config.js`
 
 ```js
-const WebExtWebpackPlugin = require('web-ext-webpack-plugin');
+const WebExtWebpackPlugin = require('@ccarruitero/web-ext-webpack-plugin');
 
 module.exports = {
   // ...

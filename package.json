@@ -1,5 +1,5 @@
 {
-  "name": "web-ext-webpack-plugin",
+  "name": "@ccarruitero/web-ext-webpack-plugin",
   "version": "0.1.0",
   "description": "Use web-ext with webpack",
   "main": "index.js",
